@@ -1,0 +1,30 @@
+# Arquivos do sistema (macOS)
+.DS_Store
+
+# Backups automáticos gerados pelo Jupyter Notebook (não devem ser versionados)
+.ipynb_checkpoints/
+
+# Ambientes virtuais e caches de execução
+.venv/
+__pycache__/
+
+# Configurações de IDEs
+.vscode/
+*.code-workspace
+
+# Arquivos temporários e de backup
+*.log
+*.tmp
+*.bak
+
+# Arquivos CSV (gerados durante execução, não versionar)
+*.csv
+
+# Arquivos editáveis não versionados
+*.docx
+
+# Observação:
+# As pastas 'dados_brutos/' e 'dados_tratados/' NÃO estão ignoradas
+# para permitir o versionamento de arquivos .zip (e somente eles).
+# Dessa forma, os dados originais e tratados podem ser armazenados compactados,
+# sem sobrecarregar o repositório com arquivos .csv individuais.
